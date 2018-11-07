@@ -44,3 +44,12 @@ git add .
 git commit -m "added landing page"
 git push origin master 
 ````
+### Third: Add Drinks 
+
+````bash 
+rails g scaffold Drink name:string size:integer  price:decimal
+rails db:migrate 
+rails s 
+````
+In browser, go to http://localhost:3000/drinks to add several drinks to database. 
+
