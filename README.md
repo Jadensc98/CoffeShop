@@ -1,4 +1,4 @@
-#Making CoffeeShop
+# Making CoffeeShop
 
 first generate a rails project and set it up for git and github
 
