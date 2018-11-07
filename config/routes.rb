@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :drinks
     root 'welcome#index'
   get 'home' => 'welcome#index'
 

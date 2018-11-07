@@ -53,3 +53,11 @@ rails s
 ````
 In browser, go to http://localhost:3000/drinks to add several drinks to database. 
 
+Save to git and github in terminal 
+
+````bash
+git add .
+git commit -m "added drinks scaffold"
+git push origin master 
+````
+
